@@ -3,5 +3,6 @@ from django.urls import path
 from portfolio.views import *
 
 urlpatterns = [
-    path('', portfolio_details),
+    path('', portfolio),
+    path('portfolio/portfolio-details', portfolio_details),
 ]
