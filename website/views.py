@@ -12,6 +12,3 @@ def index(request):
 
 def resume(request):
     return render(request,'website/resume.html')
-
-def services(request):
-    return render(request,'website/services.html')
